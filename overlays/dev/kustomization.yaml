@@ -4,7 +4,7 @@ resources:
   - ../../base
 replicas:
   - name: demo
-    count: 2
+    count: 4
 images:
   - name: nginx
     newTag: "1.25"
